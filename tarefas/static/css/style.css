@@ -1,0 +1,16 @@
+
+h2 {
+    background-color: rgb(40, 51, 51) !important;
+    border-top: 2px solid black !important;
+    color: white !important;
+    text-align: justify;
+
+}
+
+footer {
+    background-color: rgb(40, 51, 51) !important;
+    border-top: 2px solid black !important;
+    color: white !important;
+    text-align: center;
+
+}
