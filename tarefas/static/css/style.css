@@ -6,7 +6,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-    background-color: white !important; /*cor de fundo*/
+    background-color: rgb(210, 231, 132) !important; /*cor de fundo*/
     border-bottom: 1px solid black !important; /*borda inferior*/
 }
 
@@ -28,11 +28,56 @@ body {
     letter-spacing: 2px !important;
 }
 
-/*Lista de Tarefas*/
-.list-div{
-     margin: auto !important;
+/*Botão adicionar*/
+.add-div {
+    background-color: rgb(25, 173, 179) !important;
+    color: white !important;
+    padding: 0.5em !important;
+    border-radius: 10px !important; /*arredondar a borda*/
+}
+/*Botão adicionar tirar a linha dele*/
+#add-button {
+    text-decoration: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
+/*Main*/
+.list-div {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+/*deixar abaixo do tarefas, não ficar colado*/
+.barra {
+    margin-top: 2em !important;
+}
+
+/*borda na lupa*/
+.input-group-btn {
+    border: 1px solid rgb(0, 0, 0, 0.206)!important;
+    border-radius: 5px !important;
+
+}
+
+/* lista*/
+.item {
+    border-bottom: 1px dotted black !important; /* Dotted é linha tracejada*/
+    height: 3em !important;
+    font-size: 2em !important;
+    margin-top: 1em !important;
+}
+
+.fa.fa-trash {
+    color: red !important;
+}
+.fa.fa-edit {
+    color: green !important;
+}
+
+.icones {
+    text-align: end !important;
+}
 footer {
     background-color: rgb(40, 51, 51) !important;
     border-top: 2px solid black !important;
