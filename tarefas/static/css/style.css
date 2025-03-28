@@ -1,16 +1,44 @@
 
-h2 {
-    background-color: rgb(40, 51, 51) !important;
-    border-top: 2px solid black !important;
-    color: white !important;
-    text-align: justify;
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
+/*NAVBAR*/
+.navbar {
+    background-color: white !important; /*cor de fundo*/
+    border-bottom: 1px solid black !important; /*borda inferior*/
+}
+
+/*centralizar - tarefas, usuários, sobre nós*/
+.navbar-nav {
+    margin: auto !important;
+}
+/*TODO*/
+.navbar-brand {
+    color: black !important;
+    font-weight: bold !important; /*fonte */
+    font-size: 2em !important;/*tamanho*/
+}
+
+/*Tarefas, usuários, sobre nós*/
+.nav-link {
+    color: black!important;
+    font-size: 1.3em !important;
+    letter-spacing: 2px !important;
+}
+
+/*Lista de Tarefas*/
+.list-div{
+     margin: auto !important;
 }
 
 footer {
     background-color: rgb(40, 51, 51) !important;
     border-top: 2px solid black !important;
     color: white !important;
-    text-align: center;
-
+    display: flex !important;
+    align-items: center !important; /*centralizar o texto*/
+    justify-content: center !important;
+    padding: 1em !important; /*deixar o tamanho do quadrado maior*/
 }
