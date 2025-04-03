@@ -9,7 +9,7 @@
     <div class="row barra">
         <div class="col-sm-2">
             <!--botão de +-->
-            <a id="add-button" href="novatarefa/">
+            <a id="add-button" href="novaTarefa/">
                 <div class="add-div">
                     <i class="fa fa-plus"></i> Adicionar Tarefas
                 </div>
@@ -41,8 +41,8 @@
         </div>
 
         <div class="col-sm-2 icones">
-            <a href=""><span><i class="fa fa-edit"></i></span></a>
-            <a href=""><span><i class="fa fa-trash"></i></span></a>
+            <a href="edit/{{tarefa.id}}"><span><i class="fa fa-edit"></i></span></a>
+            <a href="delete/{{tarefa.id}}" class="delete-btn"><span><i class="fa fa-trash"></i></span></a>
         </div>
     </div>
     {% endfor %}
