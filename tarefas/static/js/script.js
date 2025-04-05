@@ -1,5 +1,4 @@
-//Função que pergunta ao usuário se ele quer mesmo excluir a tarefa
-
+//Função que pergunta ao usuário se ele quer msm excluir a tarefa
 document.querySelectorAll(".delete-btn").forEach(
     btn => {
         btn.addEventListener("click", function(e){
@@ -7,12 +6,16 @@ document.querySelectorAll(".delete-btn").forEach(
 
             const delLink = this.getAttribute("href");
 
-            if(delLink && confirm("Quer deletar essa tarefa?"))
+            if(delLink && confirm("Quer deletar esta tarefa?"))
             {
                 window.location.href = delLink;
             }
 
-
         });
     }
-)
+);
+
+//Função para Pesquisar
+document.getElementById("search-btn").addEventListener("click", function(){
+    document.getElementById("search-form").onsubmit();
+});
